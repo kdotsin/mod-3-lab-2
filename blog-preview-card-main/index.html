@@ -7,28 +7,41 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Blog preview card</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main>
+    <article class="main-content">
+      <header class="image-header">
+        <img src="assets/images/illustration-article.svg" alt="close tag illustration">
+      </header>
 
-  Learning
+      <div class="learning-button">
+        <button>
+          Learning
+        </button>
+      </div>
 
-  Published 21 Dec 2023
+      <div class="publish-date">
+        <p>Published 21 Dec 2023</p>
+      </div>
 
-  HTML & CSS foundations
+      <div class="title-content">
+        <h1>HTML & CSS foundations</h1>
+      </div>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+      <div class="body-content">
+        <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
 
-  Greg Hooper
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
+      <address class="writer-content">
+        <img src="assets/images/image-avatar.webp" alt="">Greg Hooper</img>
+      </address>
+    </article>
+  </main>
 </body>
 </html>
